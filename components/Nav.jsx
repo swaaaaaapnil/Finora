@@ -33,7 +33,7 @@ const Nav = () => {
         <div className="flex items-center justify-between transition-all duration-500 ease-in-out">
           <Link href="/" className="flex items-center">
             <Image
-              src="/Logo.png"
+              src="/logo.png"
               alt="logo"
               height={80}
               width={200}
@@ -107,7 +107,7 @@ const Nav = () => {
       <div className="flex items-center justify-between transition-all duration-500 ease-in-out">
         <Link href="/" className="flex items-center">
           <Image
-            src="/Logo.png"
+            src="/logo.png" // <-- use lowercase and leading slash, matching your file name
             alt="logo"
             height={80}
             width={200}
