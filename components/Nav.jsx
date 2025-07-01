@@ -23,8 +23,8 @@ const Nav = () => {
 
   const headerClasses = `fixed left-0 right-0 z-50 transition-all border-black duration-500 ease-in-out ${
     scrolled
-      ? 'top-4 bg-black/80 backdrop-blur-md rounded-full shadow-lg border border-black mx-auto max-w-screen-xl px-6 py-2'
-      : 'top-0 bg-transparent px-8 py-2 w-full'
+      ? 'top-4 bg-black/80 backdrop-blur-md rounded-full shadow-lg border border-black mx-auto max-w-screen-xl w-[95vw] sm:w-auto px-2 sm:px-6 py-2'
+      : 'top-0 bg-transparent px-2 sm:px-8 py-2 w-full'
   }`;
 
   if (!mounted) {

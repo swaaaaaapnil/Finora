@@ -1,20 +1,18 @@
 "use client";
 
-import StatCard from "@/components/StatCard";
 import FeatureCard from "@/components/FeatureCard";
 import Image from "next/image";
-import { useEffect, useRef, useState } from "react";
 
 export default function HomeLandingClient({ statsData, featuresData, howItWorksData, testimonialsData }) {
   return (
     <div>
       <section className="py-12">
-        <div className="container mx-auto px-4">
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-8 justify-center items-center">
+        <div className="container mx-auto px-4 sm:px-8">
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 sm:gap-8 justify-center items-center">
             {statsData.map((item, index) => (
               <div
                 key={index}
-                className="flex flex-col items-center justify-center h-40 min-w-[180px] rounded-2xl shadow-xl transition-transform duration-200 hover:scale-105"
+                className="flex flex-col items-center justify-center h-40 min-w-[140px] sm:min-w-[180px] rounded-2xl shadow-xl transition-transform duration-200 hover:scale-105"
                 style={{ background: "rgba(196, 196, 196, 1)" }}
               >
                 <div className="text-3xl sm:text-4xl font-extrabold mb-2 bg-gradient-to-r from-blue-500 to-purple-500 bg-clip-text text-transparent">
