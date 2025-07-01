@@ -1,4 +1,18 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Finora
+
+Finora is a modern finance management web application built with [Next.js](https://nextjs.org), designed to help users track, manage, and analyze their financial transactions with ease.
+
+## Features
+
+- **User Authentication:** Secure sign-up and sign-in using Clerk.
+- **Dashboard:** Personalized dashboard to view account balances, recent transactions, and financial summaries.
+- **Transaction Management:** Easily add, edit, and view your income and expenses.
+- **Responsive Design:** Fully responsive UI for seamless experience on desktop and mobile devices.
+- **Modern UI:** Sleek interface using Tailwind CSS and Lucide icons.
+- **Prisma Integration:** Robust backend with Prisma ORM for database management.
+- **API Routes:** RESTful API endpoints for account and transaction operations.
+- **Optimized Images:** Uses Next.js `<Image />` for fast and optimized image loading.
+- **Secure:** Built-in security best practices with Next.js and Clerk.
 
 ## Getting Started
 
@@ -34,6 +48,7 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# Finora
-# Finora
-# Finora
+
+---
+
+**Finora** – Your finances, simplified.
