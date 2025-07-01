@@ -22,6 +22,7 @@ const aj = arcjet({
       allow: [
         "CATEGORY:SEARCH_ENGINE",
         "GO_HTTP",
+        "VERCEL", // Allow Vercel bots/infrastructure
       ],
     }),
   ],
